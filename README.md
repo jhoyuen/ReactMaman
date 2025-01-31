@@ -18,3 +18,12 @@ dynamic values within curly braces { } in jsx
 - Using `Simple React Snippets` extension:
     - generate new stateless functional components (SFC) using `sfc` snippet shortcut
     - generate new class template e.g `nav.navbar`
+
+# Lesson 7 - UseState Hook
+- import { useState } from 'react';
+    - usage e.g 
+    - const [name, setName] = useState('Mario');
+    - const [age, setAge] = useState(25);
+    - setName('Luigi');
+    - setAge(30);
+    - { name } is { age } years old
