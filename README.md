@@ -27,3 +27,20 @@ dynamic values within curly braces { } in jsx
     - setName('Luigi');
     - setAge(30);
     - { name } is { age } years old
+
+# Lesson 8 - Output Lists
+```
+const [blogs,setBlogs] = useState([
+        { id:1, title: 'My new website', body: 'lorem ipsum...', author: 'Mario' },
+        { id:2, title: 'Welcome party!', body: 'lorem ipsum...', author: 'Luigi' },
+        { id:3, title: 'Web dev top tips', body: 'lorem ipsum...', author: 'Yoshi' }
+    ]);
+
+{ blogs.map((blog) => (
+    <div className="blog-preview" key={ blog.id }>
+        <h2>{ blog.title }</h2>
+        <p>Written by { blog.author }</p>
+    </div>
+    )) 
+}  
+```            
