@@ -43,4 +43,19 @@ const [blogs,setBlogs] = useState([
     </div>
     )) 
 }  
-```            
+```
+
+# Lesson 13 - useEffect Hook and dependencies
+```
+import { useEffect } from 'react';
+
+const Home = () => {
+    const [name, setName] = useState('mario');
+
+    // runs every time the component renders by checking state changes for values in the dependencies array
+    useEffect(() => {
+        console.log('useEffect ran');
+        console.log(name);
+    }, [name]);
+}
+```
