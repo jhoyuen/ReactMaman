@@ -8,20 +8,24 @@ const Home = () => {
         { id:3, title: 'Web dev top tips', body: 'lorem ipsum...', author: 'Mario' }
     ]);
 
+    const [name, setName] = useState('mario');
+
     const handleDelete = (id) => {
         const newBlogs = blogs.filter(blog => blog.id !== id);
         setBlogs(newBlogs);
     }
 
-    // runs every time the component renders
+    // runs every time the component renders by checking state changes for values in the dependencies array
     useEffect(() => {
         console.log('useEffect ran');
-        console.log(blogs);
-    });
+        console.log(name);
+    }, [name]);
 
     return (  
         <div className="home">
             <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />
+            <button onClick={() => setName('luigi')}>change name</button>
+            <p>{ name }</p>
         </div>
     );
 }
