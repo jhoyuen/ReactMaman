@@ -59,3 +59,6 @@ const Home = () => {
     }, [name]);
 }
 ```
+
+# Lesson 14 - using a JSON server to simulate data source
+`npx json-server --watch data/db.json --port 8000`
