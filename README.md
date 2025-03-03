@@ -62,3 +62,17 @@ const Home = () => {
 
 # Lesson 14 - using a JSON server to simulate data source
 `npx json-server --watch data/db.json --port 8000`
+
+# Lesson 15 - fetch data with useEffect
+```
+useEffect(() => {
+        fetch('http://localhost:8000/blogs')
+            .then(res => {
+                return res.json();
+            })
+            .then(data => {
+                setBlogs(data);
+                console.log(data);
+            });
+    }, []);
+```    
