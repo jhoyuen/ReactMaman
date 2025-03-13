@@ -83,3 +83,26 @@ React Router url - https://reactrouter.com/
 
 To install run:
 `npm install react-router-dom@latest` (use the latest stable version or double check your react version first to know which vers to install)
+
+# Lesson 20 - Exact match routes
+React Router < v6 requires the `exact` keyword in the route in order to tell React to exactly lookup the url
+e.g 
+```
+<Switch>
+    <Route exact path="/">
+        <Home />
+    </Route>
+    <Route path="/create">
+        <Create />
+    </Route>
+</Routes>
+```
+
+However, React Router v6 and above doesn't support exact anymore. As stated in their documentation: You don't need to use an exact prop on `<Route path="/">` anymore. This is because all paths match exactly by default.
+e.g 
+```
+<Routes>
+    <Route e path="/" element={<Home />} />
+    <Route path="/create" element={<Create />} />
+</Routes>
+```        
