@@ -129,3 +129,15 @@ const Navbar = () => {
  
 export default Navbar;
 ```
+
+# Lesson 22 - useEffect cleanup
+The abort() method of the AbortController interface aborts an asynchronous operation before it has completed. This is able to abort fetch requests, the consumption of any response bodies, or streams. e.g
+```
+useEffect(() => {
+    const abortCont = new AbortController();
+
+    // some code...
+    
+    return () => abortCont.abort();
+}, [url]);
+```
