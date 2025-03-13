@@ -105,4 +105,27 @@ e.g
     <Route e path="/" element={<Home />} />
     <Route path="/create" element={<Create />} />
 </Routes>
-```        
+``` 
+
+# Lesson 21 - Router Links
+Implement router links as follows (Link element) in order to prevent requests to be made to the React development server each time a link is clicked:
+#### Navbar.js
+```
+
+import { Link } from 'react-router-dom';
+
+const Navbar = () => {
+    return (  
+        <nav className="navbar">
+            <h1>The Ma Man Blog</h1>
+            <div className="links">
+                <Link to="/">Home</Link>
+                <Link to="/create">New Blog</Link>    
+            </div>  
+        </nav>  
+
+    );
+}
+ 
+export default Navbar;
+```
