@@ -76,3 +76,10 @@ useEffect(() => {
             });
     }, []);
 ```    
+
+# Lesson 19 - The React Router
+In order to be able to render different pages under the SPA, use the react router.
+React Router url - https://reactrouter.com/
+
+To install run:
+`npm install react-router-dom@latest` (use the latest stable version or double check your react version first to know which vers to install)
