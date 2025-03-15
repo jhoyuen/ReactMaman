@@ -1,22 +1,46 @@
 {
-    "blogs": [
-        {
-            "id": 1,
-            "title": "My new website",
-            "author": "Mario",
-            "content": "Content 1"
-        },
-        {
-            "id": 2,
-            "title": "Welcome party!",
-            "author": "Sonic",
-            "content": "Content 2"
-        },
-        {
-            "id": 3,
-            "title": "Web dev top tips",
-            "author": "Pikachu",
-            "content": "Content 3"
-        }
-    ]
+  "blogs": [
+    {
+      "id": "1",
+      "title": "My new website",
+      "author": "Mario",
+      "content": "Content 1"
+    },
+    {
+      "id": "2",
+      "title": "Welcome party!",
+      "author": "Sonic",
+      "content": "Content 2"
+    },
+    {
+      "id": "3",
+      "title": "Web dev top tips",
+      "author": "Pikachu",
+      "content": "Content 3"
+    },
+    {
+      "id": "e291",
+      "title": "test",
+      "body": "sedsfdsf",
+      "author": "yoshi"
+    },
+    {
+      "id": "cd28",
+      "title": "Super Mario World",
+      "body": "Nice game",
+      "author": "mario"
+    },
+    {
+      "id": "44af",
+      "title": "Mario and Luigi",
+      "content": "brothers power!",
+      "author": "mario"
+    },
+    {
+      "id": "a8ee",
+      "title": "Yoshi's island",
+      "content": "a really nice game",
+      "author": "yoshi"
+    }
+  ]
 }
