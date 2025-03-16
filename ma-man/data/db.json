@@ -41,6 +41,24 @@
       "title": "Yoshi's island",
       "content": "a really nice game",
       "author": "yoshi"
+    },
+    {
+      "id": "5e5f",
+      "title": "Castlevania",
+      "content": "The home of simon and Richter!",
+      "author": "mario"
+    },
+    {
+      "id": "d62c",
+      "title": "Dragon Quest",
+      "content": "lots of heroes",
+      "author": "yoshi"
+    },
+    {
+      "id": "81d6",
+      "title": "Pikachu",
+      "content": "Our most beloved Pokemon",
+      "author": "yoshi"
     }
   ]
 }
