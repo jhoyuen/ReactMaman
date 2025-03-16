@@ -1,6 +1,6 @@
 # ReactMaman
 My first React project Ma Man!
-- Install `Simple React Snippets` extension ()
+- Install `Simple React Snippets` extension
 - Go to Settings > search for `Emmet` and choose `Emmet: Include Languages` > then add `"javascript": "javascriptreact"`
 
 # Lesson 1 - To create and run new React project
